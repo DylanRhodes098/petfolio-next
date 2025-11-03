@@ -55,7 +55,7 @@ export const initUser = () => {
       sequelize,
       modelName: "User",
       tableName: "users",
-      underscored: true,
+      underscored: false,
       timestamps: true,
     }
   );
